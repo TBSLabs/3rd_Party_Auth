@@ -4,6 +4,8 @@ sudo: false
 
 install: true
 
+script: mvn clean install
+
 jdk: openjdk7
 
 cache:

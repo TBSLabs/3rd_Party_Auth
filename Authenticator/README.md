@@ -1,6 +1,6 @@
 
 # Authenticator
-
+ 
 This application uses the third party OAuth Provider and pull the required data from the 3rd party server for own application user details management.
 
 #Technology used :

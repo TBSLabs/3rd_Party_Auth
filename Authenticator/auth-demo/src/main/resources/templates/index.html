@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+        <title>Authentication Application</title>
+    </head>
+    <body>
+    	<h2> Choose the authentication provider name </h2>
+        <ul>
+        	<li> <a th:href="@{/request/auth?provider=gmail}"> GMAIL </a> </li>
+        	<li> <a th:href="@{/request/auth?provider=facebook}"> FACEBOOK </a> </li>
+        	<li> <a th:href="@{/request/auth?provider=github}"> GITHUB </a> </li>
+        </ul>
+    </body>
+</html>

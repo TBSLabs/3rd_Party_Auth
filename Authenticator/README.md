@@ -21,7 +21,7 @@ This application uses the third party OAuth Provider and pull the required data 
 #How to run the application ?
 <hr/>
 <ul>
-<li>Build the Application using maven (mvn clean install)</li>
+<li>Build the Application using maven (mvn clean install)</li> 
 <li>Run Application.java class</li>
 </ul>
 Now Test the Application by putting <code>http://localhost:8080</code> on your browser
